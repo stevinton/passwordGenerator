@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(42, 53, 42);
+    position: absolute;
+    top: 15%;
+    left: 33%;
+}
+
+.container {
+    backdrop-filter: blur(25px);
+    border: rgb(69, 90, 69) 2px solid;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.container h2 {
+    position: relative;
+    left: 140px;
+}
+
+.container p {
+    position: relative;
+    left: 150px;
+}
+
+.container input,
+.container label {
+    position: relative;
+    left: 200px;
+}
+
+.output {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.buttons {
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    color: yellowgreen;
+}
