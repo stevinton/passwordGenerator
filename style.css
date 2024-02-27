@@ -3,6 +3,7 @@ body {
     position: absolute;
     top: 15%;
     left: 33%;
+    color: white;
 }
 
 .container {
@@ -38,6 +39,7 @@ body {
     left: 150px;
     text-align: center;
     border-radius: 10px;
+    color: black;
 }
 
 .buttons {
